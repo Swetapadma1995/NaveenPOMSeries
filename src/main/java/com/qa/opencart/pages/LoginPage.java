@@ -22,9 +22,6 @@ public class LoginPage {
 	//private By footer = By.xpath("//footer/div[@class='container']");
 	private By registerLink = By.linkText("Register");
 	
-	private By naveen = By.linkText("naveen");
-
-	
 	private By loginErrorMsg = By.xpath("//div[@class='alert alert-danger alert-dismissible']");
 	
 	//page constructor
