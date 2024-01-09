@@ -15,8 +15,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 		<extentreports-version>5.0.8</extentreports-version>
 		<aspectj.version>1.9.19</aspectj.version>
 	</properties>
@@ -25,13 +25,13 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.15.0</version>
+			<version>4.13.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.8.0</version>
+			<version>7.9.0</version>
 		</dependency>
 
 		<dependency>
@@ -107,8 +107,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
 				<configuration>
-					<source>1.8</source>
-					<targer>1.8</targer>
+					<source>17</source>
+					<targer>17</targer>
 				</configuration>
 			</plugin>
 

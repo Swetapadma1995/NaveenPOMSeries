@@ -24,7 +24,7 @@ public class LoginPageTests extends BaseTest{
 
 	
 	@Description("login page title test...")
-	//@Severity(SeverityLevel.MINOR)
+	@Severity(SeverityLevel.MINOR)
 	@Test(priority = 1)
 	public void loginPageTitleTest() {
 		String actTitle = loginPage.getLoginPageTitle();
@@ -32,7 +32,7 @@ public class LoginPageTests extends BaseTest{
 	}
 	
 	@Description("login page URL test...")
-	//@Severity(SeverityLevel.NORMAL)
+	@Severity(SeverityLevel.NORMAL)
 	@Test(priority = 2)
 	public void loginPageURLTest() {
 		String actURL = loginPage.getLoginPageURL();
@@ -40,21 +40,21 @@ public class LoginPageTests extends BaseTest{
 	}
 	
 	@Description("verifying forgot pwd link test...")
-	//@Severity(SeverityLevel.CRITICAL)
+	@Severity(SeverityLevel.CRITICAL)
 	@Test(priority = 3)
 	public void forgotPwdLinkExistTest() {
 		Assert.assertTrue(loginPage.isForgotPwdLinkExist());
 	}
 
 	@Description("verifying app logo exist test...")
-	//@Severity(SeverityLevel.CRITICAL)
+	@Severity(SeverityLevel.CRITICAL)
 	@Test(priority = 4)
 	public void appLogoExist() {
 		Assert.assertTrue(loginPage.isLogoExist());
 	}
 	
 	@Description("verifying user is able to login with correct credentials...")
-	//@Severity(SeverityLevel.BLOCKER)
+	@Severity(SeverityLevel.BLOCKER)
 	@Test(priority = 5)
 	private void loginTest() {
 		//Assert.assertTrue(loginPage.doLogin("naveenaugbatch2023@opencart.com", "selenium@12345"));	
