@@ -120,8 +120,9 @@
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
-						<suiteXMLFile>
-							src/test/resources/testrunners/testng_regression.xml</suiteXMLFile>
+						<!--<suiteXMLFile>
+							src/test/resources/testrunners/testng_regression.xml</suiteXMLFile>-->
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 
 					<argLine>
